@@ -1,0 +1,17 @@
+#viz {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    margin: 1em;
+}
+
+.item {
+    margin-bottom: 1em;
+}
+
+.item:hover {
+    color: blue;
+    cursor: pointer;
+}
