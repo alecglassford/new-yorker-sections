@@ -1,3 +1,8 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 1em;
+}
+
 #viz {
     display: flex;
     flex-direction: row;
@@ -11,7 +16,11 @@
     margin-bottom: 1em;
 }
 
-.item:hover {
+#sections > .item:hover, #authors > .item:hover {
     color: blue;
     cursor: pointer;
+}
+
+.selected {
+    background-color: pink;
 }
